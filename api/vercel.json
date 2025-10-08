@@ -1,0 +1,27 @@
+{
+    "versión": 2,
+    "marco": null,
+    "funciones": {
+        "api/index.php": {
+            "tiempo de ejecución": "vercel-php@0.6.0"
+        },
+        "  rutas ": [
+            {
+                " origen  ": "  /(.*  ) ",
+                " destino ": " /api/index.php "
+            }
+        ],
+        " entorno ": {
+            " APP_ENV": "producción",
+            "APP_DEBUG": "verdadero",
+            "APP_URL": "https: //yourprojectdomain.com",
+            "APP_CONFIG_CACHE" : "/tmp/config.php" , 
+            "APP_EVENTS_CACHE" : "/tmp/events.php" , 
+            "APP_PAQUETES_CACHE" : "/tmp/packages.php" , 
+            "APP_ROUTES_CACHE" : "/tmp/routes.php" , 
+            "CACHÉ DE SERVICIOS DE LA APLICACIÓN" : "/tmp/services.php" , 
+            "RUTA_COMPILADA_DE_VISUALIZACIÓN" : "/tmp" , 
+            "CONTROLADOR_DE_CACHÉ" : "matriz" , 
+            "CANAL_DE_REGISTRO" : "stderr" , 
+            "CONTROLADOR_DE_SESIÓN" : "cookie" 
+        }}}
